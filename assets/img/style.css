@@ -1,4 +1,8 @@
 
+.dropdown-menu {
+    margin-right: 50%;
+    text-align: center;
+}
 
 .footer {
     position: fixed;
