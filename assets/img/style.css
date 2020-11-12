@@ -12,6 +12,9 @@
     left: -75px;
 }
 
+.container{
+    position: fixed;
+}
 .footer {
     position: fixed;
     left: 0;
