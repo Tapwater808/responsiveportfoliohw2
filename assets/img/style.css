@@ -26,6 +26,24 @@
     width: 75%;
     margin-left: 12%;
 }
+.container-portfolio{
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px;
+    grid-gap: 10px;
+    top: 25%;
+    bottom: 33%;
+    height: 60%;
+    width: 100%;
+    margin-left: 40%;
+}
+
+.carousel-item{
+    height: 60%;
+    width: 60%;
+}
+
 
 .footer {
     position: fixed;
