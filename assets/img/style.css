@@ -1,44 +1,50 @@
 .background {
-    height: 950px;
+    height: 1250px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("./backgroundimg.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: inherit;
 }
 
 .dropdown-menu {
     text-align: center;
     left: -75px;
 }
-
-.container{
+.container-index{
     position: absolute;
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: 100%;
     grid-template-rows: 10% 90%;
     grid-gap: 40px;
     background-color: #ffffff;
     padding: 10px;
     top: 25%;
     bottom: 33%;
-    height: 60%;
+    height: 80%;
     width: 75%;
     margin-left: 12%;
 }
-.container-portfolio{
-    position: absolute;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    top: 25%;
-    bottom: 33%;
-    height: 60%;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+.container.fluid{
+    padding-top: 25%;
+
 }
+
+.col-auto,
+.col-xl-
+.row-auto,
+.row {
+background-color: lightblue;
+
+}
+
+.aboutme {
+    position: left;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
 .carousel-inner img {
     margin: auto;
     height: 50%;
